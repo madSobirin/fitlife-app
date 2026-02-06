@@ -22,8 +22,8 @@
 /* Dark Mode */
 
 .dark {
-  --color-background-light: 16 34 23;
-  --color-surface-light: 26 44 34;
+  --color-background-light: #102217;
+  --color-surface-light: #1a2c22;
 }
 
 .custom-checkbox:checked {
