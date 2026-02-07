@@ -9,7 +9,6 @@ const inter = Inter({
 
 export const metadata = {
   icons: { icon: "/img/wallpaper.png" },
-  title: "FitTech - Login",
 };
 
 export default function RootLayout({ children }) {
