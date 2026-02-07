@@ -39,16 +39,22 @@ export default function Register() {
       }}
     >
       <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
-        <Input label="Full Name" placeholder="Enter your full name" />
+        <Input
+          label="Full Name"
+          placeholder="Enter your full name"
+          name="name"
+        />
         <Input
           label="Email Address"
           type="email"
           placeholder="name@example.com"
+          name="email"
         />
         <Input
           label="Password"
           isPassword
           placeholder="Create a secure password"
+          name="password"
         />
 
         {/* Checkbox Terms (Khusus Register) */}
