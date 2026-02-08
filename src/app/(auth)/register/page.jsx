@@ -38,7 +38,7 @@ export default function Register() {
         href: "/login",
       }}
     >
-      <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
+      <form className="space-y-5">
         <Input
           label="Full Name"
           placeholder="Enter your full name"
